@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "dependencies": {
+    "baidu-aip-sdk": "file:aip-node",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "request": "^2.83.0"
+  },
+  "description": "人脸识别",
+  "main": "event.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Best",
+  "license": "ISC"
+}
