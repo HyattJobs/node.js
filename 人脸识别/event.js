@@ -68,7 +68,7 @@ app.post('/',function (req,res) {
     var bImages = [base64Img,base64Data];
 
     client.match(bImages).then(function(result) {
-       // console.log(JSON.stringify(result));
+        console.log(JSON.stringify(result));
 /*      json正常的格式
         {
             "result": [
